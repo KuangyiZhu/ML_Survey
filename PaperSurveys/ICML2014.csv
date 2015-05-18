@@ -16,7 +16,7 @@ A Statistical Convergence Perspective of Algorithms for Rank Aggregation from Pa
 Scaling Up Approximate Value Iteration with Options: Better Policies with Fewer Iterations,,,,
 Latent Bandits.,[BANDIT],,,
 Fast Allocation of Gaussian Process Experts,,,,
-Von Mises-Fisher Clustering Models,,[CLUSTERING],
+Von Mises-Fisher Clustering Models,,[CLUSTERING],,
 Convergence rates for persistence diagram estimation in Topological Data Analysis,,,
 Buffer k-d Trees: Processing Massive Nearest Neighbor Queries on GPUs,,,[GPGPU]
 Austerity in MCMC Land: Cutting the Metropolis-Hastings Budget,,[REGRESSION],
