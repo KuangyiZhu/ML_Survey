@@ -1,268 +1,268 @@
-ICML2014, , ,Priority
-A Discriminative Latent Variable Model for Online Clustering,,[CLUSTERING],3
-Kernel Mean Estimation and Stein Effect,,[CLUSTERING],3
-Demystifying Information-Theoretic Clustering,,[CLUSTERING],3
-The Coherent Loss Function for Classification,,[CLASSIFICATION],3
-An Adaptive Accelerated Proximal Gradient Method and its Homotopy Continuation for Sparse Optimization,,[SPARSE],3
-Thompson Sampling for Complex Online Problems,[ADTECH],  ,3
-Boosting multi-step autoregressive forecasts,  ,[REGRESSION],2
-A Statistical Convergence Perspective of Algorithms for Rank Aggregation from Pairwise Data,[RANKING],  ,3
-Latent Bandits.,[BANDIT],  ,3
-Von Mises-Fisher Clustering Models,  ,[CLUSTERING],3
-Austerity in MCMC Land: Cutting the Metropolis-Hastings Budget,  ,[REGRESSION],1
-Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis,[RANKING][ADTECH],  ,2
-The Inverse Regression Topic Model,  ,[REGRESSION],1
-Latent Variable Copula Inference for Bundle Pricing from Retail Transaction Data,[ADPRICE],  ,1
-Robust RegBayes: Selectively Incorporating First-Order Logic Domain Knowledge into Bayesian Models,  ,[CLASSIFICATION],3
-Learning Theory and Algorithms for revenue optimization in second price auctions with reserve,[ADPRICE],  ,1
-Prediction with Limited Advice and Multiarmed Bandits with Paid Observations,[BANDIT],  ,3
-Bayesian Nonparametric Multilevel Clustering with Group-Level Contexts,  ,[CLUSTERING],3
-Wasserstein Propagation for Semi-Supervised Learning,  ,[CLUSTERING],3
-Max-Margin Infinite Hidden Markov Models,  ,[TIMESERIES],3
-Boosting with Online Binary Learners for the Multiclass Bandit Problem,[BANDIT],  ,3
-Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm,[ADTECH][ADPRICE],  ,1
-Computing Parametric Ranking Models via Rank-Breaking,[RANKING],  ,2
-Online Bayesian Passive-Aggressive Learning,  ,[CLASSIFICATION],3
-Modeling Correlated Arrival Events with Latent Semi-Markov Processes,  ,[TIMESERIES],3
-Towards scaling up Markov chain Monte Carlo: an adaptive subsampling approach,  ,[TIMESERIES],3
-Condensed Filter Tree for Cost-Sensitive Multi-Label Classification,  ,[CLASSIFICATION],3
-Bias in Natural Actor-Critic Algorithms,[ADTECH],  ,3
-A Deep and Tractable Density Estimator,  ,[CLUSTERING],3
-Online Learning in Markov Decision Processes with Changing Cost Sequences,  ,[TIMESERIES],3
-Unimodal Bandits: Regret Lower Bounds and Optimal Algorithms,[BANDIT],  ,3
-Maximum Mean Discrepancy for Class Ratio Estimation: Convergence Bounds and Kernel Selection,  ,[CLASSIFICATION],3
-Asymptotically consistent estimation of the number of change points in highly dependent time series,  ,[TIMESERIES],3
-A Divide-and-Conquer Solver for Kernel Support Vector Machines,  ,[CLASSIFICATION],3
-Nuclear Norm Minimization via Active Subspace Selection,  ,[CLUSTERING],3
-Provable Bounds for Learning Some Deep Representations,  ,[CLASSIFICATION],3
-Large-scale Multi-label Learning with Missing Labels,  ,[CLASSIFICATION],3
-Making the Most of Bag of Words: Sentence Regularization with Alternating Direction Method of Multipliers,[RANKING],  ,2
-Narrowing the Gap: Random Forests In Theory and In Practice,  ,[CLASSIFICATION],3
-Admixture of Poisson MRFs: A Topic Model with Word Dependencies,[RANKING],  ,1
-True Online TD(lambda),[ADTECH],  ,3
-Filtering with Abstract Particles,[RANKING],  ,3
-Relative Upper Confidence Bound for the K-Armed Dueling Bandit Problem,[BANDIT],  ,3
-Compact Random Feature Maps,  ,[CLUSTERING],3
-Heavy-tailed regression with a generalized median-of-means,  ,[REGRESSION],1
-Spectral Bandits for Smooth Graph Functions,[BANDIT],  ,3
-Robust Principal Component Analysis with Complex Noise,  ,[CLUSTERING],3
-Automated inference of point of view from user interactions in collective intelligence venues,[ADTECH][UX],  ,2
-On p-norm Path Following in Multiple Kernel Learning for Non-linear Feature Selection,  ,[FEATURESELECTION],3
-Gradient Hard Thresholding Pursuit for Sparsity-Constrained Optimization,  ,[SPARSE],3
-Improving offline evaluation of contextual bandit algorithms via bootstrapping techniques,[BANDIT],  ,3
-Linear and Parallel Learning of Markov Random Fields,  ,[TIMESERIES],3
-Pitfalls in the use of Parallel Inference for the Dirichlet Process,  ,[TIMESERIES],3
-Clustering in the Presence of Background Noise,  ,[CLUSTERING],3
-Learning the Consistent Behavior of Common Users for Target Node Prediction across Social Networks,[UX],  ,3
-Signal recovery from Pooling Representations,[ADTECH],  ,3
-Multi-label Classification via Feature-aware Implicit Label Space Encoding,  ,[CLASSIFICATION],3
-Hierarchical Quasi-Clustering Methods for Asymmetric Networks,  ,[CLUSTERING],3
-Elementary Estimators for High-Dimensional Linear Regression,  ,[REGRESSION],1
-Graph-based Semi-supervised Learning: Realizing Pointwise Smoothness Probabilistically,  ,[CLUSTERING],2
-Gaussian Process Classification and Active Learning with Multiple Annotators,  ,[CLASSIFICATION],2
-Linear Time Solver for Primal SVM,  ,[CLASSIFICATION],2
-Scaling SVM and Least Absolute Deviations via Exact Data Reduction,  ,[CLASSIFICATION],2
-Latent Semantic Representation Learning for Scene Classification,  ,[CLASSIFICATION],3
-Local algorithms for interactive clustering,  ,[CLUSTERING],1
-On Robustness and Regularization of Structural Support Vector Machines,  ,[CLASSIFICATION],2
-A Single-Pass Algorithm for Efficiently Recovering Sparse Cluster Centers of High-dimensional Data,  ,[CLUSTERING],1
-Statistical analysis of stochastic gradient methods for generalized linear models,  ,[REGRESSION],1
-Topic Modeling using Topics from Many Domains Lifelong Learning and Big Data,[ADTECH][CTR][CV][RANKING],  ,1
-K-means recovers ICA filters when independent components are sparse,  ,[CLUSTERING],1
-Learning Mixtures of Linear Classifiers,  ,[CLASSIFICATION],2
-Nonmyopic epsilon -Bayes-Optimal Active Learning of Gaussian Processes,  ,[CLASSIFICATION],3
-Online Clustering of Bandits,[BANDIT],  ,3
-Efficient Label Propagation,  ,[CLASSIFICATION],2
-Coupled Group Lasso for Web-Scale CTR Prediction in Display Advertising,[CTR],  ,1
-Reducing Dueling Bandits to Cardinal Bandits,[BANDIT],  ,3
-Large-margin Weakly Supervised Dimensionality Reduction,  ,[CLUSTERING],3
-Hard-Margin Active Linear Regression,  ,[REGRESSION],1
-Maximum Margin Multiclass Nearest Neighbors,  ,[CLASSIFICATION],2
-Sparse meta-Gaussian information bottleneck,  ,[SPARSE],3
-Anti-differentiating approximation algorithms:A case study with min-cuts spectral and flow,  ,[CLASSIFICATION],2
-Distributed Stochastic Gradient MCMC,  ,[REGRESSION],1
-Nearest Neighbors Using Compact Sparse Codes,  ,[CLASSIFICATION],2
-Optimal Mean Robust Principal Component Analysis,  ,[CLUSTERING],2
-Outlier Path: A Homotopy Algorithm for Robust SVM,  ,[CLASSIFICATION],2
-Standardized Mutual Information for Clustering Comparisons: One Step Further in Adjustment for Chance,  ,[CLUSTERING],3
-Distributed Representations of Sentences and Documents,[ADTECH][RANKING],  ,2
-Deep AutoRegressive Networks,  ,[REGRESSION],1
-Learning Latent Variable Gaussian Graphical Models,  ,[CLUSTERING],3
-One Practical Algorithm for Both Stochastic and Adversarial Bandits,[BANDIT],  ,3
-Randomized Nonlinear Component Analysis,  ,[CLUSTERING],3
-High Order Regularization for Semi-Supervised Learning of Structured Output Problems,  ,[CLASSIFICATION],2
-Transductive Learning with Multi-class Volume Approximation,  ,[CLASSIFICATION],3
-Effective Bayesian Modeling of Groups of Related Count Time Series,  ,[TIMESERIES],3
-Probabilistic Partial Canonical Correlation Analysis,  ,[RECOMMENDATION],1
-A Bayesian Framework for Online Classifier Ensemble,[ADTECH],[CLASSIFICATION],3
-Learnability of the Superset Label Learning Problem,  ,[CLASSIFICATION],3
-Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits,[BANDIT],  ,3
-Nonnegative Sparse PCA with Provable Guarantees,  ,[CLUSTERING],2
-Active Learning of Parameterized Skills,  ,[CLASSIFICATION],3
-Multi-period Trading Prediction Markets with Connections to Machine Learning,[CTR][CV],  ,1
-A reversible infinite HMM using normalised random measures,  ,[TIMESERIES],3
-ICML2013, , , 
-853  On autoencoder scoring ,[RANKING], ,2
-210  Feature Selection in High-Dimensional Classification , ,[CLASSIFICATION],2
-105  Markov Network Estimation From Multi-attribute Data , ,[TIMESERIES],3
-118  Sparse Recovery under Linear Transformation , ,[REGRESSION],1
-246  Noisy and Missing Data Regression: Distribution-Oblivious Support Recovery , ,[REGRESSION],1
-1149  Learning Policies for Contextual Submodular Prediction , ,[CLASSIFICATION],3
-755  Temporal Difference Methods for the Variance of the Reward To Go , ,[TIMESERIES],3
-1073  Bayesian Learning of Recursively Factored Environments , ,[CLASSIFICATION],3
-1062  Copy or Coincidence? A Model for Detecting Social Influence and Duplication Events ,[ADTECH], ,3
-172  Dynamic Probabilistic Models for Latent Feature Propagation in Social Networks ,[ADTECH], ,3
-828  Modeling Information Propagation with Survival Theory ,[ADTECH], ,3
-403  Smooth Sparse Coding via Marginal Regression for Learning Sparse Representations , ,[REGRESSION],1
-100  Modelling Sparse Dynamical Systems with Compressed Predictive State Representations , ,[SPARSE],3
-617  A Practical Algorithm for Topic Modeling with Provable Guarantees ,[ADTECH], ,3
-376  Online Latent Dirichlet Allocation with Infinite Vocabulary ,[ADTECH], ,3
-61  Parallel Markov Chain Monte Carlo for Nonparametric Mixture Models , ,[TIMESERIES],3
-801  Topic Model Diagnostics: Assessing Domain Relevance via Topical Alignment ,[ADTECH],,3
-219  Parsing epileptic events using a Markov switching process model for correlated time series , ,[TIMESERIES],3
-696  Simple Sparsification Improves Sparse Denoising Autoencoders in Denoising Highly Corrupted Images , ,[SPARSE],3
-870  Sparse PCA through Low-rank Approximations , ,[SPARSE],2
-876  Robust Sparse Regression under Adversarial Corruption , ,[SPARSE][REGRESSION],1
-393  Mean Reversion with a Variance Threshold , ,[REGRESSION],1
-1029  Gaussian Process Kernels for Pattern Discovery and Extrapolation , ,[CLASSIFICATION],3
-780  Dynamic Covariance Models for Multivariate Financial Time Series , ,[TIMESERIES],3
-300  Learning Sparse Penalties for Change-point Detection using Max Margin Interval Regression , ,[SPARSE][REGRESSION],1
-529  Learning Connections in Financial Time Series , ,[TIMESERIES],3
-1070  Topic Discovery through Data Dependent and Random Projections ,[ADTECH], ,3
-821  Factorial Multi-Task Learning : A Bayesian Nonparametric Approach ,[ADTECH],[CLASSIFICATION],1
-852  Latent Dirichlet Allocation Topic Model with Soft Assignment of Descriptors to Words ,[ADTECH], ,3
-692  Efficient Multi-label Classification with Many Labels , ,[CLASSIFICATION],1
-ICML2012, , , 
-Learning the Central Events and Participants in Unlabeled Text,[ADTECH], ,3
-Exemplar-SVMs for Visual Ob ject Detection   Label Transfer and Image Retrieval, ,[CLASSIFICATION],3
-TrueLabel + Confusions: A Spectrum of Probabilistic Models in Analyzing Multiple Ratings,[ADTECH], ,3
-Robust Multiple Manifold Structure Learning, ,[CLUSTERING],3
-Two Manifold Problems with Applications to Nonlinear System Identification, ,[CLUSTERING],3
-On the Difficulty of Nearest Neighbor Search, ,[CLASSIFICATION],1
-Estimation of Simultaneously Sparse and Low Rank Matrices, ,[SPARSE],2
-Bayesian Efficient Multiple Kernel Learning, ,[CLASSIFICATION],3
-Bayesian Nonexhaustive Learning for Online Discovery and Modeling of Emerging Classes, ,[CLASSIFICATION],3
-Active Learning for Matching Problems, ,[CLASSIFICATION],3
-Dimensionality Reduction by Local Discriminative Gaussians, ,[CLUSTERING],2
-Learning Efficient Structured Sparse Models, ,[SPARSE],3
-PAC Subset Selection in Stochastic Multi-armed Bandits,[BANDIT], ,3
-Finding Botnets Using Minimal Graph Clusterings, ,[CLUSTERING],3
-Learning the Experts for Online Sequence Prediction, ,[TIMESERIES],3
-Efficient Active Algorithms for Hierarchical Clustering, ,[CLUSTERING],3
-Copula Mixture Model for Dependency-seeking Clustering, ,[CLUSTERING],3
-Adaptive Canonical Correlation Analysis Based On Matrix Manifolds, ,[CLUSTERING],3
-Batch Active Learning via Coordinated Matching, ,[CLASSIFICATION],3
-Sparse Support Vector Infinite Push, ,[SPARSE],3
-Cross-Domain Multitask Learning with Latent Probit Models,[ADTECH], ,1
-High-Dimensional  Covariance  Decomposition into Sparse Markov and Independence Domains, ,[TIMESERIES],3
-Latent Collaborative Retrieval,[ADTECH], ,3
-Convex Multitask Learning with Flexible Task Clusters,[ADTECH], ,1
-Building high-level features using large scale unsupervised learning, ,[CLUSTERING],3
-A Unified Robust Classification Model, ,[CLASSIFICATION],3
-Manifold Relevance Determination, ,[CLUSTERING],3
-Clustering to Maximize the Ratio of Split to Diameter, ,[CLUSTERING],1
-A Graphical Model Formulation of Collaborative Filtering  Neighbourhood Methods with Fast Maximum Entropy Training,[ADTECH], ,3
-Multi-level Lasso for Sparse Multi-task Regression,[ADTECH],[REGRESSION],1
-Learning the Dependence Graph of Time Series with Latent Factors, ,[TIMESERIES],3
-Predicting accurate probabilities with a ranking loss,[ADTECH][RANKING], ,2
-Dirichlet Process with Mixed Random Measures: A Nonparametric Topic Model for Labeled Data, ,[TIMESERIES],3
-Evaluating Bayesian and L1 Approaches for  Sparse Unsupervised Learning , ,[SPARSE],2
-Collaborative Topic Regression with Social Matrix Factorization for Recommendation Systems,[ADTECH],[REGRESSION],1
-Clustering by Low-Rank Doubly Stochastic Matrix Decomposition, ,[CLUSTERING],3
-Sparse Additive Functional and Kernel CCA, ,[SPARSE],3
-Fast classification using  sparse decision DAGs, ,[SPARSE],3
-Rethinking Collapsed Variational Bayes Inference for LDA, ,[CLUSTERING],3
-A Simple Algorithm for Semi-supervised Learning with Improved Generalization Error Bound, ,[CLASSIFICATION],2
-Conditional Sparse Coding and Grouped Multivariate Regression, ,[SPARSE][REGRESSION],1
-Cross Language Text Classification via  Subspace Co-regularized Multi-view Learning ,[ADTECH],[CLASSIFICATION],1
-Gaussian Process Quantile Regression using Expectation Propagation, ,[REGRESSION],1
-Exponential Regret Bounds for Gaussian Process Bandits with Deterministic Observations,[BANDIT], ,3
-Feature Selection via Probabilistic Outputs, ,[CLASSIFICATION],1
-Quasi-Newton Methods: A New Direction, ,[REGRESSION],1
-Information-theoretic Semi-supervised Metric Learning via Entropy Regularization, ,[CLASSIFICATION],2
-On multi-view feature learning, ,[CLASSIFICATION],2
-Convergence Rates of Biased Stochastic Optimization for Learning Sparse Ising Models, ,[SPARSE],3
-Decoupling Exploration and Exploitation in Multi-Armed Bandits,[BANDIT], ,3
-Learning to Identify Regular Expressions that Describe Email Campaigns,[ADTECH], ,3
-Revisiting k-means: New Algorithms via Bayesian Nonparametrics, ,[CLUSTERING],1
-Gaussian Process Regression Networks, ,[REGRESSION],1
-Sparse-GEV: Sparse Latent Space Model for Multivariate Extreme Value Time Serie Modeling, ,[SPARSE],3
-Factorized Asymptotic Bayesian Hidden Markov Models, ,[TIMESERIES],3
-Semi-Supervised Learning of Class Balance under Class-Prior Change by Distribution Matching, ,[CLASSIFICATION],2
-Semi-Supervised Collective Classification via Hybrid Label Regularization, ,[CLASSIFICATION],2
-Shortest path distance in random k-nearest neighbor graphs, ,[CLASSIFICATION],2
-A Split-Merge Framework for Comparing Clusterings, ,[CLUSTERING],1
-An Efficient Approach to Sparse Linear Discriminant Analysis, ,[SPARSE],1
-Canonical Trends: Detecting Trend Setters in Web Data,[ADTECH], ,3
-A convex relaxation for weakly supervised classifiers, ,[CLASSIFICATION],3
-Consistent Multilabel Ranking through Univariate Losses,[RANKING], ,3
-Small-sample brain mapping: sparse recovery on spatially correlated designs with randomization and clustering, ,[SPARSE][CLUSTERING],1
-Convergence of the EM Algorithm for Gaussian Mixtures with Unbalanced Mixing Coefficients, ,[CLUSTERING],1
-Safe Exploration in Markov Decision Processes , ,[TIMESERIES],3
-Learning Task Grouping and Overlap in Multi-task Learning,[ADTECH], ,1
-Online Bandit Learning against an Adaptive Adversary: from Regret to Policy Regret,[BANDIT], ,3
-Predicting Consumer Behavior in Commerce Search,[ADTECH], ,1
-Robust PCA in High-dimension: A Deterministic Approach, ,[CLUSTERING],1
-Linear Regression with Limited Observation, ,[REGRESSION],1
-KDD2014, , , 
-Inferring user demographics and social strategies in mobile social networks.,[ADTECH], ,1
-Travel time estimation of a path using sparse trajectories., ,[SPARSE],3
-A cost-effective recommender system for taxi drivers.,[ADTECH], ,1
-Clinical risk prediction with multilinear sparse logistic regression., ,[SPARSE][REGRESSION],1
-COM: a generative model for group recommendation.,[ADTECH], ,1
-Representative clustering of uncertain data., ,[CLUSTERING],1
-SMVC: semi-supervised multi-view clustering in subspace projections., ,[CLUSTERING],1
-Online multiple kernel regression., ,[REGRESSION],1
-Incremental and decremental training for linear classification., ,[CLASSIFICATION],2
-FBLG: a simple and effective approach for temporal dependence discovery from time series data., ,[TIMESERIES],3
-Learning time-series shapelets., ,[TIMESERIES],3
-Utilizing temporal patterns for estimating uncertainty in interpretable early decision making., ,[TIMESERIES],3
-Active learning for sparse bayesian multilabel classification., ,[SPARSE][CLASSIFICATION],3
-Large-scale adaptive semi-supervised learning via unified inductive and transductive model., ,[CLASSIFICATION],3
-Active semi-supervised learning using sampling theory for graph signals., ,[CLASSIFICATION],3
-Active collaborative permutation learning.,[ADTECH], ,3
-Correlation clustering in MapReduce., ,[CLUSTERING],1
-Efficient multi-task feature learning with calibration.,[ADTECH], ,1
-Multi-task copula by sparse graph regression.,[ADTECH],[SPARSE][REGRESSION],1
-Scalable heterogeneous translated hashing.,[ADTECH], ,3
-Optimal recommendations under attraction  aversion  and social influence.,[ADTECH], ,2
-GeoMF: joint geographical modeling and matrix factorization for point-of-interest recommendation.,[ADTECH], ,3
-Product selection problem: improve market share by learning consumer behavior., , ,[UX]
-TCS: efficient topic discovery over crowd-oriented service data.,[ADTECH], ,2
-Clustering and projected clustering with adaptive neighbors., ,[CLUSTERING],1
-Optimal real-time bidding for display advertising.,[ADTECH], ,1
-Mining topics in documents: standing on the shoulders of big data.,[ADTECH], ,2
-Focused clustering and outlier detection in large attributed graphs., ,[CLUSTERING],1
-Big data for social good.,[ADTECH], ,2
-Activity ranking in LinkedIn feed.,[ADTECH], ,2
-An empirical study of reserve price optimisation in real-time bidding.,[ADTECH], ,1
-Large-scale high-precision topic modeling on twitter.,[ADTECH], ,2
-We know what you want to buy: a demographic-based system for product recommendation on microblogs.,[ADTECH], ,1
-KDD2013, , , 
-Representing documents through their readers.,[ADTECH], ,2
-Text-based measures of document diversity.,[ADTECH], ,2
-Connecting users across social media sites: a behavioral-modeling approach.,[ADTECH], ,2
-Density-based logistic regression., ,[REGRESSION],1
-Learning to question: leveraging user preferences for shopping advice.,[ADTECH], ,2
-LCARS: a location-content-aware recommender system.,[ADTECH], ,2
-Robust sparse estimation of multiresponse regression and inverse covariance matrix via the L2 distance., ,[SPARSE][REGRESSION],1
-Social influence based clustering of heterogeneous information networks., ,[CLUSTERING],3
-DTW-D: time series semi-supervised learning from a single example., ,[CLASSIFICATION],2
-To buy or not to buy: that is the question.,[ADTECH], ,1
-Hadoop: a view from the trenches.,[ADTECH], ,2
-Query clustering based on bid landscape for sponsored search auction optimization., ,[CLUSTERING],1
-KDD2012, , , 
-Efficient personalized pagerank with accuracy assurance.,[RANKING], ,3
-PageRank on an evolving graph.,[RANKING], ,3
-Multi-view clustering using mixture models in subspace projections., ,[CLUSTERING],2
-From user comments to on-line conversations.,[ADTECH], ,2
-eTrust: understanding trust evolution in an online world.,[ADTECH], ,1
-Searching and mining trillions of time series subsequences under dynamic time warping., ,[TIMESERIES],3
-A sparsity-inducing formulation for evolutionary co-clustering., ,[CLUSTERING],1
-Finding trending local topics in search queries for personalization of a recommendation system.,[ADTECH], ,2
-Learning binary codes for collaborative filtering.,[ADTECH], ,3
-Inductive multi-task learning with multiple view data.,[ADTECH], ,1
-Semi-supervised learning with mixed knowledge information., ,[CLUSTERING],1
-Multimedia features for click prediction of new ads in display advertising.,[CTR], ,1
-Unsupervised feature selection for linked social media data., ,[CLUSTERING],1
-Understanding users' satisfaction for search engine evaluation.,[RANKING], ,3
+ICML2014, , ,Priority,Conference
+A Discriminative Latent Variable Model for Online Clustering,,[CLUSTERING],3,ICML2014
+Kernel Mean Estimation and Stein Effect,,[CLUSTERING],3,ICML2014
+Demystifying Information-Theoretic Clustering,,[CLUSTERING],3,ICML2014
+The Coherent Loss Function for Classification,,[CLASSIFICATION],3,ICML2014
+An Adaptive Accelerated Proximal Gradient Method and its Homotopy Continuation for Sparse Optimization,,[SPARSE],3,ICML2014
+Thompson Sampling for Complex Online Problems,[ADTECH],  ,3,ICML2014
+Boosting multi-step autoregressive forecasts,  ,[REGRESSION],2,ICML2014
+A Statistical Convergence Perspective of Algorithms for Rank Aggregation from Pairwise Data,[RANKING],  ,3,ICML2014
+Latent Bandits.,[BANDIT],  ,3,ICML2014
+Von Mises-Fisher Clustering Models,  ,[CLUSTERING],3,ICML2014
+Austerity in MCMC Land: Cutting the Metropolis-Hastings Budget,  ,[REGRESSION],1,ICML2014
+Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis,[RANKING][ADTECH],  ,2,ICML2014
+The Inverse Regression Topic Model,  ,[REGRESSION],1,ICML2014
+Latent Variable Copula Inference for Bundle Pricing from Retail Transaction Data,[ADPRICE],  ,1,ICML2014
+Robust RegBayes: Selectively Incorporating First-Order Logic Domain Knowledge into Bayesian Models,  ,[CLASSIFICATION],3,ICML2014
+Learning Theory and Algorithms for revenue optimization in second price auctions with reserve,[ADPRICE],  ,1,ICML2014
+Prediction with Limited Advice and Multiarmed Bandits with Paid Observations,[BANDIT],  ,3,ICML2014
+Bayesian Nonparametric Multilevel Clustering with Group-Level Contexts,  ,[CLUSTERING],3,ICML2014
+Wasserstein Propagation for Semi-Supervised Learning,  ,[CLUSTERING],3,ICML2014
+Max-Margin Infinite Hidden Markov Models,  ,[TIMESERIES],3,ICML2014
+Boosting with Online Binary Learners for the Multiclass Bandit Problem,[BANDIT],  ,3,ICML2014
+Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm,[ADTECH][ADPRICE],  ,1,ICML2014
+Computing Parametric Ranking Models via Rank-Breaking,[RANKING],  ,2,ICML2014
+Online Bayesian Passive-Aggressive Learning,  ,[CLASSIFICATION],3,ICML2014
+Modeling Correlated Arrival Events with Latent Semi-Markov Processes,  ,[TIMESERIES],3,ICML2014
+Towards scaling up Markov chain Monte Carlo: an adaptive subsampling approach,  ,[TIMESERIES],3,ICML2014
+Condensed Filter Tree for Cost-Sensitive Multi-Label Classification,  ,[CLASSIFICATION],3,ICML2014
+Bias in Natural Actor-Critic Algorithms,[ADTECH],  ,3,ICML2014
+A Deep and Tractable Density Estimator,  ,[CLUSTERING],3,ICML2014
+Online Learning in Markov Decision Processes with Changing Cost Sequences,  ,[TIMESERIES],3,ICML2014
+Unimodal Bandits: Regret Lower Bounds and Optimal Algorithms,[BANDIT],  ,3,ICML2014
+Maximum Mean Discrepancy for Class Ratio Estimation: Convergence Bounds and Kernel Selection,  ,[CLASSIFICATION],3,ICML2014
+Asymptotically consistent estimation of the number of change points in highly dependent time series,  ,[TIMESERIES],3,ICML2014
+A Divide-and-Conquer Solver for Kernel Support Vector Machines,  ,[CLASSIFICATION],3,ICML2014
+Nuclear Norm Minimization via Active Subspace Selection,  ,[CLUSTERING],3,ICML2014
+Provable Bounds for Learning Some Deep Representations,  ,[CLASSIFICATION],3,ICML2014
+Large-scale Multi-label Learning with Missing Labels,  ,[CLASSIFICATION],3,ICML2014
+Making the Most of Bag of Words: Sentence Regularization with Alternating Direction Method of Multipliers,[RANKING],  ,2,ICML2014
+Narrowing the Gap: Random Forests In Theory and In Practice,  ,[CLASSIFICATION],3,ICML2014
+Admixture of Poisson MRFs: A Topic Model with Word Dependencies,[RANKING],  ,1,ICML2014
+True Online TD(lambda),[ADTECH],  ,3,ICML2014
+Filtering with Abstract Particles,[RANKING],  ,3,ICML2014
+Relative Upper Confidence Bound for the K-Armed Dueling Bandit Problem,[BANDIT],  ,3,ICML2014
+Compact Random Feature Maps,  ,[CLUSTERING],3,ICML2014
+Heavy-tailed regression with a generalized median-of-means,  ,[REGRESSION],1,ICML2014
+Spectral Bandits for Smooth Graph Functions,[BANDIT],  ,3,ICML2014
+Robust Principal Component Analysis with Complex Noise,  ,[CLUSTERING],3,ICML2014
+Automated inference of point of view from user interactions in collective intelligence venues,[ADTECH][UX],  ,2,ICML2014
+On p-norm Path Following in Multiple Kernel Learning for Non-linear Feature Selection,  ,[FEATURESELECTION],3,ICML2014
+Gradient Hard Thresholding Pursuit for Sparsity-Constrained Optimization,  ,[SPARSE],3,ICML2014
+Improving offline evaluation of contextual bandit algorithms via bootstrapping techniques,[BANDIT],  ,3,ICML2014
+Linear and Parallel Learning of Markov Random Fields,  ,[TIMESERIES],3,ICML2014
+Pitfalls in the use of Parallel Inference for the Dirichlet Process,  ,[TIMESERIES],3,ICML2014
+Clustering in the Presence of Background Noise,  ,[CLUSTERING],3,ICML2014
+Learning the Consistent Behavior of Common Users for Target Node Prediction across Social Networks,[UX],  ,3,ICML2014
+Signal recovery from Pooling Representations,[ADTECH],  ,3,ICML2014
+Multi-label Classification via Feature-aware Implicit Label Space Encoding,  ,[CLASSIFICATION],3,ICML2014
+Hierarchical Quasi-Clustering Methods for Asymmetric Networks,  ,[CLUSTERING],3,ICML2014
+Elementary Estimators for High-Dimensional Linear Regression,  ,[REGRESSION],1,ICML2014
+Graph-based Semi-supervised Learning: Realizing Pointwise Smoothness Probabilistically,  ,[CLUSTERING],2,ICML2014
+Gaussian Process Classification and Active Learning with Multiple Annotators,  ,[CLASSIFICATION],2,ICML2014
+Linear Time Solver for Primal SVM,  ,[CLASSIFICATION],2,ICML2014
+Scaling SVM and Least Absolute Deviations via Exact Data Reduction,  ,[CLASSIFICATION],2,ICML2014
+Latent Semantic Representation Learning for Scene Classification,  ,[CLASSIFICATION],3,ICML2014
+Local algorithms for interactive clustering,  ,[CLUSTERING],1,ICML2014
+On Robustness and Regularization of Structural Support Vector Machines,  ,[CLASSIFICATION],2,ICML2014
+A Single-Pass Algorithm for Efficiently Recovering Sparse Cluster Centers of High-dimensional Data,  ,[CLUSTERING],1,ICML2014
+Statistical analysis of stochastic gradient methods for generalized linear models,  ,[REGRESSION],1,ICML2014
+Topic Modeling using Topics from Many Domains Lifelong Learning and Big Data,[ADTECH][CTR][CV][RANKING],  ,1,ICML2014
+K-means recovers ICA filters when independent components are sparse,  ,[CLUSTERING],1,ICML2014
+Learning Mixtures of Linear Classifiers,  ,[CLASSIFICATION],2,ICML2014
+Nonmyopic epsilon -Bayes-Optimal Active Learning of Gaussian Processes,  ,[CLASSIFICATION],3,ICML2014
+Online Clustering of Bandits,[BANDIT],  ,3,ICML2014
+Efficient Label Propagation,  ,[CLASSIFICATION],2,ICML2014
+Coupled Group Lasso for Web-Scale CTR Prediction in Display Advertising,[CTR],  ,1,ICML2014
+Reducing Dueling Bandits to Cardinal Bandits,[BANDIT],  ,3,ICML2014
+Large-margin Weakly Supervised Dimensionality Reduction,  ,[CLUSTERING],3,ICML2014
+Hard-Margin Active Linear Regression,  ,[REGRESSION],1,ICML2014
+Maximum Margin Multiclass Nearest Neighbors,  ,[CLASSIFICATION],2,ICML2014
+Sparse meta-Gaussian information bottleneck,  ,[SPARSE],3,ICML2014
+Anti-differentiating approximation algorithms:A case study with min-cuts spectral and flow,  ,[CLASSIFICATION],2,ICML2014
+Distributed Stochastic Gradient MCMC,  ,[REGRESSION],1,ICML2014
+Nearest Neighbors Using Compact Sparse Codes,  ,[CLASSIFICATION],2,ICML2014
+Optimal Mean Robust Principal Component Analysis,  ,[CLUSTERING],2,ICML2014
+Outlier Path: A Homotopy Algorithm for Robust SVM,  ,[CLASSIFICATION],2,ICML2014
+Standardized Mutual Information for Clustering Comparisons: One Step Further in Adjustment for Chance,  ,[CLUSTERING],3,ICML2014
+Distributed Representations of Sentences and Documents,[ADTECH][RANKING],  ,2,ICML2014
+Deep AutoRegressive Networks,  ,[REGRESSION],1,ICML2014
+Learning Latent Variable Gaussian Graphical Models,  ,[CLUSTERING],3,ICML2014
+One Practical Algorithm for Both Stochastic and Adversarial Bandits,[BANDIT],  ,3,ICML2014
+Randomized Nonlinear Component Analysis,  ,[CLUSTERING],3,ICML2014
+High Order Regularization for Semi-Supervised Learning of Structured Output Problems,  ,[CLASSIFICATION],2,ICML2014
+Transductive Learning with Multi-class Volume Approximation,  ,[CLASSIFICATION],3,ICML2014
+Effective Bayesian Modeling of Groups of Related Count Time Series,  ,[TIMESERIES],3,ICML2014
+Probabilistic Partial Canonical Correlation Analysis,  ,[RECOMMENDATION],1,ICML2014
+A Bayesian Framework for Online Classifier Ensemble,[ADTECH],[CLASSIFICATION],3,ICML2014
+Learnability of the Superset Label Learning Problem,  ,[CLASSIFICATION],3,ICML2014
+Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits,[BANDIT],  ,3,ICML2014
+Nonnegative Sparse PCA with Provable Guarantees,  ,[CLUSTERING],2,ICML2014
+Active Learning of Parameterized Skills,  ,[CLASSIFICATION],3,ICML2014
+Multi-period Trading Prediction Markets with Connections to Machine Learning,[CTR][CV],  ,1,ICML2014
+A reversible infinite HMM using normalised random measures,  ,[TIMESERIES],3,ICML2014
+ICML2013, , , ,
+853  On autoencoder scoring ,[RANKING], ,2,ICML2013
+210  Feature Selection in High-Dimensional Classification , ,[CLASSIFICATION],2,ICML2013
+105  Markov Network Estimation From Multi-attribute Data , ,[TIMESERIES],3,ICML2013
+118  Sparse Recovery under Linear Transformation , ,[REGRESSION],1,ICML2013
+246  Noisy and Missing Data Regression: Distribution-Oblivious Support Recovery , ,[REGRESSION],1,ICML2013
+1149  Learning Policies for Contextual Submodular Prediction , ,[CLASSIFICATION],3,ICML2013
+755  Temporal Difference Methods for the Variance of the Reward To Go , ,[TIMESERIES],3,ICML2013
+1073  Bayesian Learning of Recursively Factored Environments , ,[CLASSIFICATION],3,ICML2013
+1062  Copy or Coincidence? A Model for Detecting Social Influence and Duplication Events ,[ADTECH], ,3,ICML2013
+172  Dynamic Probabilistic Models for Latent Feature Propagation in Social Networks ,[ADTECH], ,3,ICML2013
+828  Modeling Information Propagation with Survival Theory ,[ADTECH], ,3,ICML2013
+403  Smooth Sparse Coding via Marginal Regression for Learning Sparse Representations , ,[REGRESSION],1,ICML2013
+100  Modelling Sparse Dynamical Systems with Compressed Predictive State Representations , ,[SPARSE],3,ICML2013
+617  A Practical Algorithm for Topic Modeling with Provable Guarantees ,[ADTECH], ,3,ICML2013
+376  Online Latent Dirichlet Allocation with Infinite Vocabulary ,[ADTECH], ,3,ICML2013
+61  Parallel Markov Chain Monte Carlo for Nonparametric Mixture Models , ,[TIMESERIES],3,ICML2013
+801  Topic Model Diagnostics: Assessing Domain Relevance via Topical Alignment ,[ADTECH],,3,ICML2013
+219  Parsing epileptic events using a Markov switching process model for correlated time series , ,[TIMESERIES],3,ICML2013
+696  Simple Sparsification Improves Sparse Denoising Autoencoders in Denoising Highly Corrupted Images , ,[SPARSE],3,ICML2013
+870  Sparse PCA through Low-rank Approximations , ,[SPARSE],2,ICML2013
+876  Robust Sparse Regression under Adversarial Corruption , ,[SPARSE][REGRESSION],1,ICML2013
+393  Mean Reversion with a Variance Threshold , ,[REGRESSION],1,ICML2013
+1029  Gaussian Process Kernels for Pattern Discovery and Extrapolation , ,[CLASSIFICATION],3,ICML2013
+780  Dynamic Covariance Models for Multivariate Financial Time Series , ,[TIMESERIES],3,ICML2013
+300  Learning Sparse Penalties for Change-point Detection using Max Margin Interval Regression , ,[SPARSE][REGRESSION],1,ICML2013
+529  Learning Connections in Financial Time Series , ,[TIMESERIES],3,ICML2013
+1070  Topic Discovery through Data Dependent and Random Projections ,[ADTECH], ,3,ICML2013
+821  Factorial Multi-Task Learning : A Bayesian Nonparametric Approach ,[ADTECH],[CLASSIFICATION],1,ICML2013
+852  Latent Dirichlet Allocation Topic Model with Soft Assignment of Descriptors to Words ,[ADTECH], ,3,ICML2013
+692  Efficient Multi-label Classification with Many Labels , ,[CLASSIFICATION],1,ICML2013
+ICML2012, , , ,
+Learning the Central Events and Participants in Unlabeled Text,[ADTECH], ,3,ICML2012
+Exemplar-SVMs for Visual Ob ject Detection   Label Transfer and Image Retrieval, ,[CLASSIFICATION],3,ICML2012
+TrueLabel + Confusions: A Spectrum of Probabilistic Models in Analyzing Multiple Ratings,[ADTECH], ,3,ICML2012
+Robust Multiple Manifold Structure Learning, ,[CLUSTERING],3,ICML2012
+Two Manifold Problems with Applications to Nonlinear System Identification, ,[CLUSTERING],3,ICML2012
+On the Difficulty of Nearest Neighbor Search, ,[CLASSIFICATION],1,ICML2012
+Estimation of Simultaneously Sparse and Low Rank Matrices, ,[SPARSE],2,ICML2012
+Bayesian Efficient Multiple Kernel Learning, ,[CLASSIFICATION],3,ICML2012
+Bayesian Nonexhaustive Learning for Online Discovery and Modeling of Emerging Classes, ,[CLASSIFICATION],3,ICML2012
+Active Learning for Matching Problems, ,[CLASSIFICATION],3,ICML2012
+Dimensionality Reduction by Local Discriminative Gaussians, ,[CLUSTERING],2,ICML2012
+Learning Efficient Structured Sparse Models, ,[SPARSE],3,ICML2012
+PAC Subset Selection in Stochastic Multi-armed Bandits,[BANDIT], ,3,ICML2012
+Finding Botnets Using Minimal Graph Clusterings, ,[CLUSTERING],3,ICML2012
+Learning the Experts for Online Sequence Prediction, ,[TIMESERIES],3,ICML2012
+Efficient Active Algorithms for Hierarchical Clustering, ,[CLUSTERING],3,ICML2012
+Copula Mixture Model for Dependency-seeking Clustering, ,[CLUSTERING],3,ICML2012
+Adaptive Canonical Correlation Analysis Based On Matrix Manifolds, ,[CLUSTERING],3,ICML2012
+Batch Active Learning via Coordinated Matching, ,[CLASSIFICATION],3,ICML2012
+Sparse Support Vector Infinite Push, ,[SPARSE],3,ICML2012
+Cross-Domain Multitask Learning with Latent Probit Models,[ADTECH], ,1,ICML2012
+High-Dimensional  Covariance  Decomposition into Sparse Markov and Independence Domains, ,[TIMESERIES],3,ICML2012
+Latent Collaborative Retrieval,[ADTECH], ,3,ICML2012
+Convex Multitask Learning with Flexible Task Clusters,[ADTECH], ,1,ICML2012
+Building high-level features using large scale unsupervised learning, ,[CLUSTERING],3,ICML2012
+A Unified Robust Classification Model, ,[CLASSIFICATION],3,ICML2012
+Manifold Relevance Determination, ,[CLUSTERING],3,ICML2012
+Clustering to Maximize the Ratio of Split to Diameter, ,[CLUSTERING],1,ICML2012
+A Graphical Model Formulation of Collaborative Filtering  Neighbourhood Methods with Fast Maximum Entropy Training,[ADTECH], ,3,ICML2012
+Multi-level Lasso for Sparse Multi-task Regression,[ADTECH],[REGRESSION],1,ICML2012
+Learning the Dependence Graph of Time Series with Latent Factors, ,[TIMESERIES],3,ICML2012
+Predicting accurate probabilities with a ranking loss,[ADTECH][RANKING], ,2,ICML2012
+Dirichlet Process with Mixed Random Measures: A Nonparametric Topic Model for Labeled Data, ,[TIMESERIES],3,ICML2012
+Evaluating Bayesian and L1 Approaches for  Sparse Unsupervised Learning , ,[SPARSE],2,ICML2012
+Collaborative Topic Regression with Social Matrix Factorization for Recommendation Systems,[ADTECH],[REGRESSION],1,ICML2012
+Clustering by Low-Rank Doubly Stochastic Matrix Decomposition, ,[CLUSTERING],3,ICML2012
+Sparse Additive Functional and Kernel CCA, ,[SPARSE],3,ICML2012
+Fast classification using  sparse decision DAGs, ,[SPARSE],3,ICML2012
+Rethinking Collapsed Variational Bayes Inference for LDA, ,[CLUSTERING],3,ICML2012
+A Simple Algorithm for Semi-supervised Learning with Improved Generalization Error Bound, ,[CLASSIFICATION],2,ICML2012
+Conditional Sparse Coding and Grouped Multivariate Regression, ,[SPARSE][REGRESSION],1,ICML2012
+Cross Language Text Classification via  Subspace Co-regularized Multi-view Learning ,[ADTECH],[CLASSIFICATION],1,ICML2012
+Gaussian Process Quantile Regression using Expectation Propagation, ,[REGRESSION],1,ICML2012
+Exponential Regret Bounds for Gaussian Process Bandits with Deterministic Observations,[BANDIT], ,3,ICML2012
+Feature Selection via Probabilistic Outputs, ,[CLASSIFICATION],1,ICML2012
+Quasi-Newton Methods: A New Direction, ,[REGRESSION],1,ICML2012
+Information-theoretic Semi-supervised Metric Learning via Entropy Regularization, ,[CLASSIFICATION],2,ICML2012
+On multi-view feature learning, ,[CLASSIFICATION],2,ICML2012
+Convergence Rates of Biased Stochastic Optimization for Learning Sparse Ising Models, ,[SPARSE],3,ICML2012
+Decoupling Exploration and Exploitation in Multi-Armed Bandits,[BANDIT], ,3,ICML2012
+Learning to Identify Regular Expressions that Describe Email Campaigns,[ADTECH], ,3,ICML2012
+Revisiting k-means: New Algorithms via Bayesian Nonparametrics, ,[CLUSTERING],1,ICML2012
+Gaussian Process Regression Networks, ,[REGRESSION],1,ICML2012
+Sparse-GEV: Sparse Latent Space Model for Multivariate Extreme Value Time Serie Modeling, ,[SPARSE],3,ICML2012
+Factorized Asymptotic Bayesian Hidden Markov Models, ,[TIMESERIES],3,ICML2012
+Semi-Supervised Learning of Class Balance under Class-Prior Change by Distribution Matching, ,[CLASSIFICATION],2,ICML2012
+Semi-Supervised Collective Classification via Hybrid Label Regularization, ,[CLASSIFICATION],2,ICML2012
+Shortest path distance in random k-nearest neighbor graphs, ,[CLASSIFICATION],2,ICML2012
+A Split-Merge Framework for Comparing Clusterings, ,[CLUSTERING],1,ICML2012
+An Efficient Approach to Sparse Linear Discriminant Analysis, ,[SPARSE],1,ICML2012
+Canonical Trends: Detecting Trend Setters in Web Data,[ADTECH], ,3,ICML2012
+A convex relaxation for weakly supervised classifiers, ,[CLASSIFICATION],3,ICML2012
+Consistent Multilabel Ranking through Univariate Losses,[RANKING], ,3,ICML2012
+Small-sample brain mapping: sparse recovery on spatially correlated designs with randomization and clustering, ,[SPARSE][CLUSTERING],1,ICML2012
+Convergence of the EM Algorithm for Gaussian Mixtures with Unbalanced Mixing Coefficients, ,[CLUSTERING],1,ICML2012
+Safe Exploration in Markov Decision Processes , ,[TIMESERIES],3,ICML2012
+Learning Task Grouping and Overlap in Multi-task Learning,[ADTECH], ,1,ICML2012
+Online Bandit Learning against an Adaptive Adversary: from Regret to Policy Regret,[BANDIT], ,3,ICML2012
+Predicting Consumer Behavior in Commerce Search,[ADTECH], ,1,ICML2012
+Robust PCA in High-dimension: A Deterministic Approach, ,[CLUSTERING],1,ICML2012
+Linear Regression with Limited Observation, ,[REGRESSION],1,ICML2012
+KDD2014, , , ,
+Inferring user demographics and social strategies in mobile social networks.,[ADTECH], ,1,KDD2014
+Travel time estimation of a path using sparse trajectories., ,[SPARSE],3,KDD2014
+A cost-effective recommender system for taxi drivers.,[ADTECH], ,1,KDD2014
+Clinical risk prediction with multilinear sparse logistic regression., ,[SPARSE][REGRESSION],1,KDD2014
+COM: a generative model for group recommendation.,[ADTECH], ,1,KDD2014
+Representative clustering of uncertain data., ,[CLUSTERING],1,KDD2014
+SMVC: semi-supervised multi-view clustering in subspace projections., ,[CLUSTERING],1,KDD2014
+Online multiple kernel regression., ,[REGRESSION],1,KDD2014
+Incremental and decremental training for linear classification., ,[CLASSIFICATION],2,KDD2014
+FBLG: a simple and effective approach for temporal dependence discovery from time series data., ,[TIMESERIES],3,KDD2014
+Learning time-series shapelets., ,[TIMESERIES],3,KDD2014
+Utilizing temporal patterns for estimating uncertainty in interpretable early decision making., ,[TIMESERIES],3,KDD2014
+Active learning for sparse bayesian multilabel classification., ,[SPARSE][CLASSIFICATION],3,KDD2014
+Large-scale adaptive semi-supervised learning via unified inductive and transductive model., ,[CLASSIFICATION],3,KDD2014
+Active semi-supervised learning using sampling theory for graph signals., ,[CLASSIFICATION],3,KDD2014
+Active collaborative permutation learning.,[ADTECH], ,3,KDD2014
+Correlation clustering in MapReduce., ,[CLUSTERING],1,KDD2014
+Efficient multi-task feature learning with calibration.,[ADTECH], ,1,KDD2014
+Multi-task copula by sparse graph regression.,[ADTECH],[SPARSE][REGRESSION],1,KDD2014
+Scalable heterogeneous translated hashing.,[ADTECH], ,3,KDD2014
+Optimal recommendations under attraction  aversion  and social influence.,[ADTECH], ,2,KDD2014
+GeoMF: joint geographical modeling and matrix factorization for point-of-interest recommendation.,[ADTECH], ,3,KDD2014
+Product selection problem: improve market share by learning consumer behavior., , ,[UX],KDD2014
+TCS: efficient topic discovery over crowd-oriented service data.,[ADTECH], ,2,KDD2014
+Clustering and projected clustering with adaptive neighbors., ,[CLUSTERING],1,KDD2014
+Optimal real-time bidding for display advertising.,[ADTECH], ,1,KDD2014
+Mining topics in documents: standing on the shoulders of big data.,[ADTECH], ,2,KDD2014
+Focused clustering and outlier detection in large attributed graphs., ,[CLUSTERING],1,KDD2014
+Big data for social good.,[ADTECH], ,2,KDD2014
+Activity ranking in LinkedIn feed.,[ADTECH], ,2,KDD2014
+An empirical study of reserve price optimisation in real-time bidding.,[ADTECH], ,1,KDD2014
+Large-scale high-precision topic modeling on twitter.,[ADTECH], ,2,KDD2014
+We know what you want to buy: a demographic-based system for product recommendation on microblogs.,[ADTECH], ,1,KDD2014
+KDD2013, , , ,
+Representing documents through their readers.,[ADTECH], ,2,KDD2013
+Text-based measures of document diversity.,[ADTECH], ,2,KDD2013
+Connecting users across social media sites: a behavioral-modeling approach.,[ADTECH], ,2,KDD2013
+Density-based logistic regression., ,[REGRESSION],1,KDD2013
+Learning to question: leveraging user preferences for shopping advice.,[ADTECH], ,2,KDD2013
+LCARS: a location-content-aware recommender system.,[ADTECH], ,2,KDD2013
+Robust sparse estimation of multiresponse regression and inverse covariance matrix via the L2 distance., ,[SPARSE][REGRESSION],1,KDD2013
+Social influence based clustering of heterogeneous information networks., ,[CLUSTERING],3,KDD2013
+DTW-D: time series semi-supervised learning from a single example., ,[CLASSIFICATION],2,KDD2013
+To buy or not to buy: that is the question.,[ADTECH], ,1,KDD2013
+Hadoop: a view from the trenches.,[ADTECH], ,2,KDD2013
+Query clustering based on bid landscape for sponsored search auction optimization., ,[CLUSTERING],1,KDD2013
+KDD2012, , , ,
+Efficient personalized pagerank with accuracy assurance.,[RANKING], ,3,KDD2012
+PageRank on an evolving graph.,[RANKING], ,3,KDD2012
+Multi-view clustering using mixture models in subspace projections., ,[CLUSTERING],2,KDD2012
+From user comments to on-line conversations.,[ADTECH], ,2,KDD2012
+eTrust: understanding trust evolution in an online world.,[ADTECH], ,1,KDD2012
+Searching and mining trillions of time series subsequences under dynamic time warping., ,[TIMESERIES],3,KDD2012
+A sparsity-inducing formulation for evolutionary co-clustering., ,[CLUSTERING],1,KDD2012
+Finding trending local topics in search queries for personalization of a recommendation system.,[ADTECH], ,2,KDD2012
+Learning binary codes for collaborative filtering.,[ADTECH], ,3,KDD2012
+Inductive multi-task learning with multiple view data.,[ADTECH], ,1,KDD2012
+Semi-supervised learning with mixed knowledge information., ,[CLUSTERING],1,KDD2012
+Multimedia features for click prediction of new ads in display advertising.,[CTR], ,1,KDD2012
+Unsupervised feature selection for linked social media data., ,[CLUSTERING],1,KDD2012
+Understanding users' satisfaction for search engine evaluation.,[RANKING], ,3,KDD2012
