@@ -18,6 +18,6 @@ http://david.palenica.com/papers/online-learning-lecture-notes/online-learning-l
 http://blog.csdn.net/guohecang/article/details/52561278
 
 * Conferences
-https://academic.microsoft.com/
-https://en.wikipedia.org/wiki/List_of_computer_science_conferences
-http://portal.core.edu.au/conf-ranks/?search=WWW&by=all&source=CORE2014&sort=arank&page=1
+ * https://academic.microsoft.com/
+ * https://en.wikipedia.org/wiki/List_of_computer_science_conferences
+ * http://portal.core.edu.au/conf-ranks/?search=WWW&by=all&source=CORE2014&sort=arank&page=1
