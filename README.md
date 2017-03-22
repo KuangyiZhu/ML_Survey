@@ -12,10 +12,10 @@
 * KKT http://blog.csdn.net/johnnyconstantine/article/details/46335763
 * HMM http://www.cnblogs.com/skyme/p/4651331.html
 * Online Learning
-https://en.wikipedia.org/wiki/Online_machine_learning#Follow_the_leader_.28FTL.29
-http://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf#search=%27online+learning+FTL%27
-http://david.palenica.com/papers/online-learning-lecture-notes/online-learning-lecture-notes-2011-Oct-20.pdf#search=%27online+learning+FTL%27
-http://blog.csdn.net/guohecang/article/details/52561278
+ * https://en.wikipedia.org/wiki/Online_machine_learning#Follow_the_leader_.28FTL.29
+ * http://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf#search=%27online+learning+FTL%27
+ * http://david.palenica.com/papers/online-learning-lecture-notes/online-learning-lecture-notes-2011-Oct-20.pdf#search=%27online+learning+FTL%27
+ * http://blog.csdn.net/guohecang/article/details/52561278
 
 * Conferences
  * https://academic.microsoft.com/
