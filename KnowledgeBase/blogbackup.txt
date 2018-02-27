@@ -1,0 +1,29 @@
+blog back up
+
+从一个简单的程序说起
+
+示例程序
+
+int main(int argc, char ** argvs) {
+return 0;
+}
+
+
+
+编译、链接
+
+中间语音
+
+解释性语音
+
+assembly
+
+loader
+
+fpic realocation copy on write
+
+optimizer
+
+参考
+
+http://www.bogotobogo.com/cplusplus/assembly.php
