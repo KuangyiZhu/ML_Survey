@@ -27,3 +27,5 @@ optimizer
 参考
 
 http://www.bogotobogo.com/cplusplus/assembly.php
+
+群理论和纠错检错
