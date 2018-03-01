@@ -77,3 +77,5 @@ ptype
 
 https://www.ibm.com/developerworks/cn/linux/l-dynamic-libraries/
 。然后内核会注意到一个称为 .interp 的 ELF 部分，它指明了将要被使用的动态链接器（/lib/ld-linux.so），如清单 1 所示。这与 UNIX® 中的脚本文件的解释器定义（#!/bin/sh）很相似：只是用在了不同的上下文中。
+
+inux 提供了很多种查看和解析 ELF 对象（包括共享库）的工具。其中最有用的一个当属 ldd 命令，您可以使用它来发送共享库依赖项。例如，在 dl 应用程序上使用 ldd 命令会显示如下内容：
