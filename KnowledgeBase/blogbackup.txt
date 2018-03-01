@@ -74,3 +74,6 @@ http://man.linuxde.net/objdump
 objdump -S -C(demangle)
 ptype
 群理论和纠错检错
+
+https://www.ibm.com/developerworks/cn/linux/l-dynamic-libraries/
+。然后内核会注意到一个称为 .interp 的 ELF 部分，它指明了将要被使用的动态链接器（/lib/ld-linux.so），如清单 1 所示。这与 UNIX® 中的脚本文件的解释器定义（#!/bin/sh）很相似：只是用在了不同的上下文中。
