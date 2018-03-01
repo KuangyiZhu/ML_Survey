@@ -24,3 +24,19 @@ Linux系统给每个进程分配了4GB的空间，其中 0xC0000000到0xFFFFFFFF
 
 http://blog.csdn.net/anonymalias/article/details/51784803
 下面是进程地址空间的简易结构图：每个可执行文件生成的时候，虚拟地址空间都会从0x400000开始分配(64位)，32位为0x8048000。 
+
+https://www.jianshu.com/p/eb39eac9d82e
+该入口是由ld链接器默认的链接脚本指定的，当然用户也可以通过参数进行设定。_start由汇编代码实现。大致用如下伪代码表示：
+void _start()
+{
+　　%ebp = 0;
+　　int argc = pop from stack
+　　char ** argv = top of stack;
+　　__libc_start_main(main, argc, argv, __libc_csu_init, __linc_csu_fini,
+　　edx, top of stack);
+}
+
+作者：popsheng
+链接：https://www.jianshu.com/p/eb39eac9d82e
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
