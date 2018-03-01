@@ -8,7 +8,8 @@ int main(int argc, char ** argvs) {
 return 0;
 }
 
-
+gcc -g 
+objdump -S
 
 编译、链接
 
@@ -27,5 +28,49 @@ optimizer
 参考
 
 http://www.bogotobogo.com/cplusplus/assembly.php
+http://blog.csdn.net/demonshir/article/details/8779404
 
+https://www.recurse.com/blog/7-understanding-c-by-learning-assembly
+
+https://www.recurse.com/blog/5-learning-c-with-gdb
+
+gcc编译 strip使用
+http://blog.csdn.net/emdfans/article/details/26227347
+http://blog.csdn.net/stpeace/article/details/47090255
+https://www.tutorialspoint.com/assembly_programming/assembly_variables.htm
+
+https://stackoverflow.com/questions/42653095/what-is-the-difference-between-retq-and-ret
+http://blog.csdn.net/wwh578867817/article/details/40554103
+https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
+https://softwareengineering.stackexchange.com/questions/195385/understanding-stack-frame-of-function-call-in-c-c
+
+function A:
+push space for the return value
+push parameters
+push the return address
+jump to the function B
+function B:
+push the address of the previous stack frame
+push values of registers that this function uses (so they can be restored)
+push space for local variables
+do the necessary computation
+restore the registers
+restore the previous stack frame
+store the function result
+jump to the return address
+function A:
+pop the parameters
+pop the return value
+
+
+https://www.linuxquestions.org/questions/blog/rtmistler-575248/debugging-c-programs-using-gdb-including-core-dumps-36826/
+ulimit -c unlimited
+Running the ulimit -a command, you will see a report on all user file limits. Core file size is one of these. Typically you'll see a value of zero, this means that core files will not occur.
+
+http://www.cnblogs.com/xiehongfeng100/p/4854344.html
+In computing, a segmentation fault (often shortened to segfault) or access violation is a fault raised by hardware with memory protection, notifying an operating system (OS) about a memory access violation; on x86 computers this is a form of general protection fault. In short, a segmentation fault occurs when a program attempts to access a memory location that it is not allowed to access, or attempts to access a memory location in a way that is not allowed (e.g., attempts to write to a read-only location, or to overwrite part of the operating system).
+
+http://man.linuxde.net/objdump
+objdump -S -C(demangle)
+ptype
 群理论和纠错检错
