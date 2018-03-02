@@ -41,5 +41,74 @@ void _start()
 來源：简书
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
+
+https://www.linuxidc.com/Linux/2011-08/41869p2.htm
+可以从glibc的源代码目录中sysdeps/generic/libc-start.c看到，__libc_start_main的原型为：
+
+extern int BP_SYM (__libc_start_main) (int (*main) (int, char **, char **),  
+        int argc,  
+        char *__unbounded *__unbounded ubp_av,  
+        void (*init) (void),  
+        void (*fini) (void),  
+        void (*rtld_fini) (void),  
+        void *__unbounded stack_end)  
+__attribute__ ((noreturn));  
+
+
+这些值应该是由内核设置的。
+
+当我们在shell里面调用一个可执行文件，linux会进行以下操作：
+
+（1）shell调用系统调用“execve”，带上参数信息argc/argv。
+
+（2）内核系统调用的handler获得控制，并处理系统调用。在内核代码中，execve对应的handler是"sys_execve"。在x86中，用户模式的应用会使用以下寄存器向内核传递一些必要的参数：
+
+ebx： 指向程序名的指针
+ecx：参数数组指针
+edx：环境变量数组指针
+（3）linux然后调用通用的execve内核系统调用handler，do_execve。该调用建立一个数据结构，并将用户空间的数据拷贝到内核空间，然后调用search_binary_handler。Linux能够同时支持多种可执行文件的格式，比如a.out和ELF。为了实现这种功能，linux利用一个“struct linux_binfmt”数据结构，存储各种二进制格式的加载器的函数指针。search_binary_handler查询并调用合适的加载器（本例子中是load_elf_binary）。加载器首先建立一个数据结构用来存储ELF文件映像。然后，再建立一个内核数据结构，存���相关信息，包括代码大小，数据段起始地址，栈起始地址，等等。然后，为该程序分配用户模式的页表，并将参数以及环境变量拷贝到页面地址中。最后，create_elf_tables()函数将参数指针，环境变量数组指针压入用户模式的栈；start_thread()函数启动_start开始的进程代码。
+      当_start标号所在的汇编指令开始执行时，函数的栈帧如下所示：
+
+Stack Top           -------------  
+                            argc  
+                        -------------  
+                            argv pointer  
+                        -------------  
+                            env pointer  
+                        -------------   
+然后，这些信息传递给_start函数：
+pop %esi                  //获得argc
+
+move %esp, %ecx    //获得argv
+
+当这些信息传递给_start函数以后，_start函数通过将esp的低4位清0（即16字节对齐）来设置我们的主程序的栈的起始地址。
+
+//注：这些代码所在的文件是crtbegin.o, crtend.o, gcrt1.o。
+
+
+
+6. 总结
+
+（1）内核加载可执行文件，并建立text/data/bss/stack。此外，内核为参数和环境变量分配页，并将它们压入用户模式栈。
+（2）GCC通过crtbegin.o/crtend.o/gcrt1.o来建立程序。另外的默认库默认是动态链接的。可执行文件的开始地址是_start的地址。
+
+（3）控制传递给_start以后，_start从由内核设置的栈中获取参数和环境变量信息，然后调用__libc_start_main。
+
+（4）__libc_start_main初始化必要的数据结构，尤其是C库（比如malloc）和线程环境，然后调用用户的main函数。值得注意的是，__libc_start_main认为main
+
+函数的签名是:
+
+int main(int argc,  char ** argv, char ** env)。
+
+（5）main函数的返回值由__libc_start_main接收，并传递给exit。
+
+
 http://abcdxyzk.github.io/blog/2012/11/23/assembly-args/
 r8,r9
+
+http://blog.csdn.net/langchibi_zhou/article/details/5744922
+
+https://www.mtyun.com/library/linker
+第三列表示变量的名字，这里我们看到局部的静态变量名字被编译器修改为 s_a.1597，我们应该能猜得到编译器这么做的原因。s_a 是一个局部静态变量，作用域限制在定义它的代码块中，所以我们可以在不同的作用域中声明相同名字的局部静态变量，比如我们可以在sum函数中声明另外一个 s_a。但是我们上面提过，局部静态变量属于全局变量的范畴，它是存在于程序运行的整个生命周期的，所以为了支持这个功能，编译器对这种局部的静态变量名字加了一个后缀以便标识不同的局部静态变量。
+
+main对应的指令就是我们自己的main函数了，__libc_csu_init接着会调用_init的指令，然后会调用__do_global_ctors_aux这个 C++ 程序员都应该熟悉的 symbol 对应的指令，__do_global_ctors_aux对应的指令会进行所有的全局变量初始化，或者 C++ 中的全局对象构造等操作。
