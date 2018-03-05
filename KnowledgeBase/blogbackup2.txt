@@ -121,3 +121,9 @@ http://blog.csdn.net/absurd/article/details/928972
 https://www.codeproject.com/Articles/9426/Need-for-Rebasing-a-DLL
 The loader has to iterate through the relocation section and modify a lot of the module's code. This produces a major performance hit and can really hurt an application's initialization time.
 As the loader writes to the module's code pages, the system's copy-on-write mechanism forces these pages to be backed by the system's paging file.
+
+
+http://blog.csdn.net/gatieme/article/details/51628257
+http://blog.csdn.net/A1342772/article/details/77688148
+https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries/
+http://www.cnblogs.com/catch/p/3857964.html
