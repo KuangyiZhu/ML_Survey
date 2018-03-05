@@ -117,3 +117,7 @@ main对应的指令就是我们自己的main函数了，__libc_csu_init接着会
 http://blog.csdn.net/absurd/article/details/928972
 共享库的初始化和~初始化函数分析
 
+
+https://www.codeproject.com/Articles/9426/Need-for-Rebasing-a-DLL
+The loader has to iterate through the relocation section and modify a lot of the module's code. This produces a major performance hit and can really hurt an application's initialization time.
+As the loader writes to the module's code pages, the system's copy-on-write mechanism forces these pages to be backed by the system's paging file.
