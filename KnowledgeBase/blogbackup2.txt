@@ -127,3 +127,9 @@ http://blog.csdn.net/gatieme/article/details/51628257
 http://blog.csdn.net/A1342772/article/details/77688148
 https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries/
 http://www.cnblogs.com/catch/p/3857964.html
+
+
+gcc在编译时，除非显示的使用static标签，否则所有程序的链接都是动态链接的，也就是说需要解释器。由此可见，我们的程序在被内核加载到内存，内核跳到用户空间后并不是执行目标程序的，而是先把控制权交到用户空间的解释器，由解释器加载运行用户程序所需要的动态库（比如libc等等），然后控制权才会转移到用户程序。
+
+动态链接器执行在ELF文件中标记为.init的节的代码，进行程序运行的初始化。 
+动态链接器把控制传递给程序，从ELF文件头部中定义的程序进入点(main)开始执行。在a.out格式和ELF格式中，程序进入点的值是显式存在的，而在COFF格式中则是由规范隐含定义。
