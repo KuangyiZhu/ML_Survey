@@ -136,3 +136,8 @@ gcc在编译时，除非显示的使用static标签，否则所有程序的链�
 
 http://gotowqj.iteye.com/blog/1926771
 rpath
+
+https://greek0.net/elf.html
+https://www.cnblogs.com/xmphoenix/archive/2011/10/23/2221879.html
+elf format
+上面类型为PHDR的segment，用来包含程序头表本身。
