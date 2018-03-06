@@ -139,5 +139,7 @@ rpath
 
 https://greek0.net/elf.html
 https://www.cnblogs.com/xmphoenix/archive/2011/10/23/2221879.html
+http://blog.csdn.net/anonymalias/article/details/51784803
+64位操作系统程序分配(加载)的虚拟起始地址为0x400000，32位系统程序分配(加载)的虚拟起始地址为0x8048000
 elf format
 上面类型为PHDR的segment，用来包含程序头表本身。
