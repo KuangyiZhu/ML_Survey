@@ -143,3 +143,28 @@ http://blog.csdn.net/anonymalias/article/details/51784803
 64位操作系统程序分配(加载)的虚拟起始地址为0x400000，32位系统程序分配(加载)的虚拟起始地址为0x8048000
 elf format
 上面类型为PHDR的segment，用来包含程序头表本身。
+
+
+https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
+Running the above gives us a simple segmentation fault. Thus proving that /proc/$PID/maps is giving us the truth, there really is nothing between 0-400000
+
+What it basically means is that the program executable is loaded into memory before it can start doing things. The entry point of the executable can be acquired by readelf. But here's another question, why is the entry point given by readelf, not at 0x400000. It turns out that, that entry point is consider the actual point where the OS should start executing, whereas the position between 0x400000 and entry point is used for the EHDR and PHDR, meaning ELF headers and Program Headers. We'll look into this in detail later.
+
+As you can see, we have 3 sections of memory, each of them 4 KiB, and allocated from /home/vagrant/c_tests/memory_layout.
+
+What are these sections?
+
+The first segment: "Text Segment".
+
+The second segment: "Data Segment".
+
+The third segment: "BSS Segment".
+
+Text segment stores the binary image of the process. The data segment stores static variables initialised by the programmer, for example static char * foo = "bar";. The BSS segment stores uninitialised static variables, which are filled with zeros, for example static char * username;.
+
+So it turns out that one can say that 0x400000 for a non-PIE 64 bit ELF executable compiled by gcc on Linux is the exact the same starting point as the 0x0 for the actual executable file itself.
+
+Unlike gcore or manually dereferencing arbitrary pointers, we can see that objdump cannot or will not show us memory contents from 400000 - 400238. Instead it starts showing from 400238. This is because the stuff from 400000 - 400238 are not assembly instructions, they are just metadata, so objdump doesn't bother with them as it's designed to dump assembly code. 
+
+https://zh.wikipedia.org/wiki/%E6%A0%B8%E5%BF%83%E8%BD%AC%E5%82%A8
+核心文件（core file），也称核心转储（core dump），是操作系统在进程收到某些信号而终止运行时，将此时进程地址空间的内容以及有关进程状态的其他信息写出的一个磁盘文件。这种信息往往用于调试。
