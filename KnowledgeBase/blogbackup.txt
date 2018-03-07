@@ -1,13 +1,4 @@
 
-https://www.recurse.com/blog/7-understanding-c-by-learning-assembly
-
-https://www.recurse.com/blog/5-learning-c-with-gdb
-
-gcc编译 strip使用
-http://blog.csdn.net/emdfans/article/details/26227347
-http://blog.csdn.net/stpeace/article/details/47090255
-https://www.tutorialspoint.com/assembly_programming/assembly_variables.htm
-
 https://stackoverflow.com/questions/42653095/what-is-the-difference-between-retq-and-ret
 http://blog.csdn.net/wwh578867817/article/details/40554103
 https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
