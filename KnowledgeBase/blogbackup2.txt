@@ -1,15 +1,3 @@
-http://blog.csdn.net/unix21/article/details/8466440
-http://man.linuxde.net/ld
-http://blog.csdn.net/ayu_ag/article/details/50737209
-程序并不是从main函数开始执行的，gcc -o main main.c时，默认会连接libc.so(可以指定-nodefaultlib, -nostdlib取消连接)，并且会添加一个启动代码_start函数(可以指定-nodefaultlib, -nostdlib不添加启动代码)，用于初始化，并提供main函数的argc, argv等参数，_start函数中会调用main函数。
-
-readelf -h main ｜ grep Entry可以看到：
-  Entry point address:               0x4003d0
-程序的入口地址是0x4003d0，也就是_start函数的地址，程序装载到内存后，从0x4003d0(_start)开始执行。
-
-
-那么，我不想执行_start函数呢，可以通过ld的参数-e指定入口函数，使用gcc -o main mian.c -Wl,-ehello编译，-Wl用于指定后面的参数是给ld的，-e指定入口函数是hello。
-
 https://stackoverflow.com/questions/14314021/why-linux-gnu-linker-chose-address-0x400000
 The start address is usually set by a linker script.
 
