@@ -1,34 +1,3 @@
-blog back up
-
-从一个简单的程序说起
-
-示例程序
-
-int main(int argc, char ** argvs) {
-return 0;
-}
-
-gcc -g 
-objdump -S
-
-编译、链接
-
-中间语音
-
-解释性语音
-
-assembly
-
-loader
-
-fpic realocation copy on write
-
-optimizer
-
-参考
-
-http://www.bogotobogo.com/cplusplus/assembly.php
-http://blog.csdn.net/demonshir/article/details/8779404
 
 https://www.recurse.com/blog/7-understanding-c-by-learning-assembly
 
