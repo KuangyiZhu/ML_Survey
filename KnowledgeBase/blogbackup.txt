@@ -1,44 +1,4 @@
 
-https://stackoverflow.com/questions/42653095/what-is-the-difference-between-retq-and-ret
-http://blog.csdn.net/wwh578867817/article/details/40554103
-https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
-https://softwareengineering.stackexchange.com/questions/195385/understanding-stack-frame-of-function-call-in-c-c
-
-function A:
-push space for the return value
-push parameters
-push the return address
-jump to the function B
-function B:
-push the address of the previous stack frame
-push values of registers that this function uses (so they can be restored)
-push space for local variables
-do the necessary computation
-restore the registers
-restore the previous stack frame
-store the function result
-jump to the return address
-function A:
-pop the parameters
-pop the return value
 
 
-https://www.linuxquestions.org/questions/blog/rtmistler-575248/debugging-c-programs-using-gdb-including-core-dumps-36826/
-ulimit -c unlimited
-Running the ulimit -a command, you will see a report on all user file limits. Core file size is one of these. Typically you'll see a value of zero, this means that core files will not occur.
 
-http://www.cnblogs.com/xiehongfeng100/p/4854344.html
-In computing, a segmentation fault (often shortened to segfault) or access violation is a fault raised by hardware with memory protection, notifying an operating system (OS) about a memory access violation; on x86 computers this is a form of general protection fault. In short, a segmentation fault occurs when a program attempts to access a memory location that it is not allowed to access, or attempts to access a memory location in a way that is not allowed (e.g., attempts to write to a read-only location, or to overwrite part of the operating system).
-
-http://man.linuxde.net/objdump
-objdump -S -C(demangle)
-ptype
-群理论和纠错检错
-
-https://www.ibm.com/developerworks/cn/linux/l-dynamic-libraries/
-。然后内核会注意到一个称为 .interp 的 ELF 部分，它指明了将要被使用的动态链接器（/lib/ld-linux.so），如清单 1 所示。这与 UNIX® 中的脚本文件的解释器定义（#!/bin/sh）很相似：只是用在了不同的上下文中。
-
-inux 提供了很多种查看和解析 ELF 对象（包括共享库）的工具。其中最有用的一个当属 ldd 命令，您可以使用它来发送共享库依赖项。例如，在 dl 应用程序上使用 ldd 命令会显示如下内容：
-
-readelf 命令是一个有很多特性的实用程序，它让您能够解析和读取 ELF 对象。readelf 有一个有趣的用途，就是用来识别对象内可再定位的项。
-readelf -r
