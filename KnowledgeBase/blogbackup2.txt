@@ -1,0 +1,9 @@
+https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/lecture-notes/MIT1_201JF08_lec17.pdf Airline Revenue Management: Flight Leg and Network Optimization
+
+https://en.wikipedia.org/wiki/Revenue_management Revenue management
+https://en.wikipedia.org/wiki/Inventory_theory Inventory theory
+http://dinamico2.unibg.it/icsp2013/doc/pl/H.%20TOPALOGLU.pdf Role of Stochastic Optimization in Revenue Management
+https://www.sciencedirect.com/science/article/pii/S1110866511000375 Dynamic room pricing model for hotel revenue management systems
+https://www.sciencedirect.com/science/article/pii/S2352146515000927 A Linear Programming-based Method for the Network Revenue Management Problem of Air Cargo
+https://ac.els-cdn.com/S1110866511000375/1-s2.0-S1110866511000375-main.pdf?_tid=005cf48b-4003-4594-8802-6deca6e116be&acdnat=1520511776_51faa1cccc00d54b379510038ea577c7 Dynamic room pricing model for hotel revenue management systems
+https://www.utdallas.edu/~metin/FuJen/Folios/scpricing_s.pdf Pricing and the Revenue Management

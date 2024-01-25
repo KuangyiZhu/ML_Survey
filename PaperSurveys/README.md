@@ -20,7 +20,7 @@
 |CPA|CPA|
 |ビットプライス調整|ADPRICE|
 |bandit|bandit|
-|アルゴリズム関連|ALG|
+|興味あるのアルゴリズム関連|ALG|
 |分類アルゴリズム関連|CLASSIFICATION|
 |クラスタリングアルゴリズム関連|CLUSTERING|
 |特徴抽出|FEATUREEXTRACTION|
