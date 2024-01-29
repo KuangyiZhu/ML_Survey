@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+    <h1>フォーム</h1>
+    <form method="post" action="/templateTest/hello5">
+        名前：<input type="text" name="name"><br>
+        年齢：<input type="text" name="age"><br>
+        <input type="submit">
+    </form>
+   <h1>表示</h1>
+      <div th:text="'名前： ' + ${sampleForm.name}"></div>
+      <div th:text="'年齢： ' + ${sampleForm.age}"></div>
+</body>
+</html>
