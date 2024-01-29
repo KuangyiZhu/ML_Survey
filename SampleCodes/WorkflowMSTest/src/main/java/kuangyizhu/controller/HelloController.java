@@ -38,8 +38,10 @@ public class HelloController {
     @Autowired
     private TransactionDAO transactionDAO;
 
+/*
     @Autowired
     private KafkaTemplate<Object, Object> kafkaTemplate;
+*/
 
     @GetMapping("/")
     public String index() {
@@ -131,16 +133,18 @@ public class HelloController {
         return transactionDAO.findByIdParamNative(transactionId);
     }
 
+/*
     @GetMapping("/send/{input}")
     public void sendFoo(@PathVariable String input) {
         this.kafkaTemplate.send("WorkflowTest", input);
     }
+*/
 
-    @KafkaListener(id = "WorkflowTestGroup", topics = "WorkflowTest")
+/*    @KafkaListener(id = "WorkflowTestGroup", topics = "WorkflowTest")
     public void listen(String input, Acknowledgment ack)  {
         System.out.print("input value: " + input);
         ack.acknowledge();
-    }
+    }*/
 
 }
 
