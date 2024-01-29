@@ -1,3 +1,4 @@
+/*
 package kuangyizhu.repository;
 
 
@@ -51,3 +52,4 @@ public class TransactionDO implements Serializable {
 
 
 }
+*/

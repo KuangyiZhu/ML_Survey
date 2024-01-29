@@ -7,9 +7,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import kuangyizhu.TestProperties;
-import kuangyizhu.repository.TransactionDAO;
-import kuangyizhu.repository.TransactionDO;
-import kuangyizhu.service.TransactionService;
+//import kuangyizhu.repository.TransactionDAO;
+//import kuangyizhu.repository.TransactionDO;
+//import kuangyizhu.service.TransactionService;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,9 +17,9 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jms.JmsProperties;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.annotation.KafkaListener;
+/*import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.kafka.support.Acknowledgment;
+import org.springframework.kafka.support.Acknowledgment;*/
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -32,11 +32,13 @@ public class HelloController {
     @Autowired
     private TestProperties testProperties;
 
-    @Autowired
-    private TransactionService transactionService;
+/*    @Autowired
+    private TransactionService transactionService;*/
 
+/*
     @Autowired
     private TransactionDAO transactionDAO;
+*/
 
 /*
     @Autowired
@@ -107,31 +109,31 @@ public class HelloController {
         return response.getBody();
     }
 
-    @GetMapping("/testJPA")
+/*    @GetMapping("/testJPA")
     @ResponseBody
     public TransactionDO getTransaction(@RequestParam (value = "transId") String transactionId) {
         return transactionDAO.findByTransactionId(transactionId).get().get(0);
-    }
+    }*/
 
-    @RequestMapping(value = "/testJPAInsert", method = RequestMethod.POST)
+/*    @RequestMapping(value = "/testJPAInsert", method = RequestMethod.POST)
     public String testJPAInsert(@RequestBody Test test) throws JsonProcessingException {
         ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
         System.out.println(ow.writeValueAsString(test));
         transactionService.insert(ow.writeValueAsString(test));
         return "Success";
-    }
+    }*/
 
-    @GetMapping("/testJPAQueryParam")
+/*    @GetMapping("/testJPAQueryParam")
     @ResponseBody
     public List<TransactionDO> testJPAQueryParam(@RequestParam (value = "transId") String transactionId) {
         return transactionDAO.findByIdParam(transactionId);
-    }
+    }*/
 
-    @GetMapping("/testJPAQueryParamNative")
+/*    @GetMapping("/testJPAQueryParamNative")
     @ResponseBody
     public List<String> testJPAQueryParamNative(@RequestParam (value = "transId") String transactionId) {
         return transactionDAO.findByIdParamNative(transactionId);
-    }
+    }*/
 
 /*
     @GetMapping("/send/{input}")

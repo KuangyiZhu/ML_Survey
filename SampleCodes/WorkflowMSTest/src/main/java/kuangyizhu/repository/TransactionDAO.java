@@ -1,3 +1,4 @@
+/*
 package kuangyizhu.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -18,3 +19,4 @@ public interface TransactionDAO extends JpaRepository<TransactionDO, Integer> {
     @Query(value = "select transaction_data from transaction where transaction_id=:id", nativeQuery = true)
     List<String> findByIdParamNative(@Param("id") String id);
 }
+*/
