@@ -1,0 +1,1 @@
+sudo java -Dserver.port=80 -jar WorkflowMSTest-1.0-SNAPSHOT.jar

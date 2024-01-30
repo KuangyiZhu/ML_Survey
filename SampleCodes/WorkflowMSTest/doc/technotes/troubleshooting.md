@@ -4,6 +4,19 @@
 `ps aux|grep java`
 2. find the port
 `netstat -anv | grep <port-number>`
+
+## enable debug on ec2
+* open a tcp port is not necessary
+* start remote jvm using the following command
+```shell
+sudo java -Dserver.port=80 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005  -jar WorkflowMSTest-1.0-SNAPSHOT.jar
+```
+* port forward on local using the following command
+```shell
+ssh -Nf -L 5005:localhost:5005 -i "test.pem" ec2-user@ec2-3-87-243-2.compute-1.amazonaws.com
+```
+* configure the intelliJ for the remote debug
+
 # Mysql
 ## starting and stopping mysql on Mac
 * sudo mysql.server start -- for start
