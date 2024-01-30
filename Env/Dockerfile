@@ -6,8 +6,8 @@ RUN yum update -y && \
  yum install -y which && \
  yum install -y procps-ng && \
  yum install -y java-21* && \
- yum install -y git-all
-
+ yum install -y git-all && \
+ yum install -y maven-local-amazon-corretto21
 
 RUN groupadd -r appdev 
 
