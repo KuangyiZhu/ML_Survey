@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "a92b6fb9-c708-4160-8436-3f96719b305e",
+		"name": "EC2WorkFlowTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21289005"
+	},
+	"item": [
+		{
+			"name": "TestHelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testResponse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testResponse",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testResponse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJsonResponse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJsonResponse",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJsonResponse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testRestTemplate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testRestTemplate",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testRestTemplate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJPA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJPA?transId=3f99e0c0-8b4c-11ed-bea5-a7b48fb2ceef",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJPA"
+					],
+					"query": [
+						{
+							"key": "transId",
+							"value": "3f99e0c0-8b4c-11ed-bea5-a7b48fb2ceef"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJPAQueryParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJPAQueryParam?transId=2d43221c-8d07-11ed-b0e6-5724b10a1e7a",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJPAQueryParam"
+					],
+					"query": [
+						{
+							"key": "transId",
+							"value": "2d43221c-8d07-11ed-b0e6-5724b10a1e7a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJPAQueryParamNative",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJPAQueryParam?transId=2d43221c-8d07-11ed-b0e6-5724b10a1e7a",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJPAQueryParam"
+					],
+					"query": [
+						{
+							"key": "transId",
+							"value": "2d43221c-8d07-11ed-b0e6-5724b10a1e7a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testKafkasend",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/send/test",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"send",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJPAInsert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"int\":1,\n    \"stringValue\":\"test\",\n    \"boolValue\":true,\n    \"datetimeValue\":\"2022-01-01\"\n}"
+				},
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJPAInsert",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJPAInsert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testJsonRequestResponse",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"int\":1,\n    \"stringValue\":\"test\",\n    \"boolValue\":true,\n    \"datetimeValue\":\"2022-01-01\"\n}"
+				},
+				"url": {
+					"raw": "ec2-3-87-243-2.compute-1.amazonaws.com/testJsonRequestResponse",
+					"host": [
+						"ec2-3-87-243-2.compute-1.amazonaws.com"
+					],
+					"port": "80",
+					"path": [
+						"testJsonRequestResponse"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
