@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<h2 th:text="'受注No. ' + ${target}"></h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>品目</th>
+        <th>受注先</th>
+        <th>個数</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>調味料AA</td>
+        <td>汐留オフィス店</td>
+        <td>8/10個口</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

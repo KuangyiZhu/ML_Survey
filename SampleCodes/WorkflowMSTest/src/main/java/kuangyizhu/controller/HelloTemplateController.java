@@ -54,6 +54,14 @@ public class HelloTemplateController {
         return "hello7";
     }
 
+    @RequestMapping(value = "/scmlabel")
+    public ModelAndView hello8(@RequestParam(value = "no", required = false) String no) {
+        ModelAndView mav = new ModelAndView();
+        mav.addObject("target", (no == null ? "12345": no));
+        mav.setViewName("hello8");
+        return mav;
+    }
+
     @Data
     public class SampleForm {
         private String name;
