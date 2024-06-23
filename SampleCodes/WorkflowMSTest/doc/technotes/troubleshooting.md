@@ -84,3 +84,10 @@ https://cliiip.com/posts/mysql-datetime-timezone-pitfall/
 show variables like "%time_zone%"
 ```
 
+# EC2 MySQL Configuration
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html
+
+To install mySQL client, using the following command in aws
+```
+sudo dnf install mariadb105
+```
