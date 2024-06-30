@@ -10,17 +10,41 @@
             border-collapse: collapse;
         }
         table, th, td {
-            border: 1px solid black;
+            border: none;
         }
         th, td {
             padding: 8px;
             text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: #ffffff;
         }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
+
+        .has-border {
+            border: 1px solid black;
+        }
+        .highlight {
+           background-color: #000000;
+           color: #FFFFFF;
+           font-size: 12px;
+        }
+        .smallfont {
+           font-size: 12px;
+        }
+        .largefont {
+            text-align: center;
+            font-size: 36px;
+        }
+        .borderandcenter {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .onlycenter {
+            text-align: center;
+        }
+        .rightandsmall {
+            text-align: right;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -31,16 +55,37 @@
 <table>
     <thead>
     <tr>
-        <th>品目</th>
-        <th>受注先</th>
-        <th>個数</th>
+        <td class="has-border" colspan="4" height="30px"></td>
     </tr>
     </thead>
     <tbody>
+
+    <tr class="no-border">
+        <td class="smallfont">関東C</td>
+        <td class="smallfont">12/24</td>
+        <td class="highlight">特売A</td>
+        <td class="smallfont">サトー販売</td>
+    </tr>
     <tr>
-        <td>調味料AA</td>
-        <td>汐留オフィス店</td>
-        <td>8/10個口</td>
+        <td colspan="2" class="largefont">目黒西口</td>
+        <td colspan="2" class="largefont">4131</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="borderandcenter" >加工食品</td>
+        <td colspan="2" class="borderandcenter">1001</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="onlycenter">調味料</td>
+        <td colspan="2" class="onlycenter">7001</td>
+    </tr>
+    <tr>
+        <td class="has-border" colspan="4" height="30px"></td>
+    </tr>
+    <tr>
+        <td>サトー食品物流</td>
+        <td>12345678</td>
+        <td class="rightandsmall">荷番:</td>
+        <td>12345</td>
     </tr>
     </tbody>
 </table>

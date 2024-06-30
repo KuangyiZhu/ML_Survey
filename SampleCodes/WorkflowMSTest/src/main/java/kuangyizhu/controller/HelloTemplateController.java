@@ -60,6 +60,7 @@ public class HelloTemplateController {
         mav.addObject("target", (no == null ? "12345": no));
         mav.setViewName("hello8");
         return mav;
+        
     }
 
     @Data
